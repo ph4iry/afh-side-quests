@@ -15,7 +15,7 @@ function App() {
   // const font = ['pixel', 'geometric', 'mono'][Math.floor(Math.random() * 3)];
   const [title, setTitle] = useState(''); 
   const [tokens, setTokens] = useState(0);
-  const [bg, setBg] = useState('/olden.png')
+  const [bg] = useState('/olden.png')
   const [color, setColor] = useState<'quest' | 'reward'>('quest');
   const { fontSize, ref } = useFitText();
 
